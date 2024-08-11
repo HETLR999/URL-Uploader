@@ -2,10 +2,10 @@ import os
 
 class Config(object):
     # get a token from @BotFather
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7330436352:AAHUJUNGytd9bTY1otHe7EVwJlN4km0usXw")
     # The Telegram API things
-    APP_ID = int(os.environ.get("APP_ID", 12345))
-    API_HASH = os.environ.get("API_HASH")
+    APP_ID = int(os.environ.get("APP_ID", 20077058))
+    API_HASH = os.environ.get("API_HASH","349639880eb5b1cb0ff6c2b8a6f16717")
     # Get these values from my.telegram.org
     # the download location, where the HTTP Server runs
     DOWNLOAD_LOCATION = "./DOWNLOADS"
@@ -25,9 +25,9 @@ class Config(object):
     PROCESS_MAX_TIMEOUT = 3600
     # your telegram id
     # Array to store users who are authorized to use the bot
-    AUTH_USERS = int(os.environ.get("AUTH_USERS", "1684438752"))
+    AUTH_USERS = int(os.environ.get("AUTH_USERS", "6169288210"))
     # database uri (mongodb)
     DATABASE_NAME = "JOSProjects"
-    DATABASE_URL = os.environ.get("DATABASE_URL", "")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://avdhez:2004@leech.pg1bvd7.mongodb.net/?retryWrites=true&w=majority")
     MAX_RESULTS = "50"
-    AUTH_CHANNEL = os.environ.get("AUTH_CHANNEL", "-100")
+    AUTH_CHANNEL = os.environ.get("AUTH_CHANNEL", "-1002205938557")
